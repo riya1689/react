@@ -1,0 +1,6 @@
+1.
+cmd
+npm --version
+cd your folder /npm create vite@latest project-folder-name-- --template react
+
+next 3 step wil shown after enter the line
