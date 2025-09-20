@@ -1,0 +1,140 @@
+
+React
+A JavaScript library for building user interfaces (developed by Facebook).
+
+Used in React Applications, Web Applications, and Mobile App Development (via React Native).
+
+in its ecosystem.
+React – Core Features
+
+Language: JavaScript + JSX (JavaScript XML for templating).
+
+Rendering: Virtual DOM → updates only changed parts → faster.
+
+Data Binding: One-way (unidirectional).
+
+Structure: Component-based → reusable & scalable.
+
+Ecosystem: Relies on third-party libraries (e.g., React Router for navigation, Redux Toolkit for state management).
+
+Developer Experience: Hot Reload plugin → instant updates.
+
+Flexibility: Not a full framework → you choose tools based on project needs.
+
+react -> js library for building user interface
+React → Library, fast & flexible, but needs third-party tools.
+
+Best For: Flexible projects needing speed, performance, and strong third-party ecosystem.
+
+Angular
+
+A complete MVC framework for front-end development (developed by Google).
+
+Comes with built-in tools: Routing, State Management, HTTP, etc.
+
+Angular – Core Features
+
+Language: TypeScript (superset of JavaScript).
+
+Rendering: Real DOM (slower compared to Virtual DOM in very large apps).
+
+Data Binding: Two-way (bi-directional flow between model & view).
+
+Structure: Full MVC framework → routing, HTTP, forms, and state management are built-in.
+
+Ecosystem: No heavy reliance on third-party libraries; provides official tools.
+
+Developer Experience: Angular CLI → simplifies setup, testing & scaling.
+
+Stability: Opinionated and structured → great for enterprise-level apps.
+
+Best For: Enterprise-level apps where a complete, opinionated framework is ideal.
+
+Vue (by Evan You, ex-Google)
+
+Type: Progressive framework → lightweight, flexible, and incrementally adaptable.
+
+Language: JavaScript (with templates). Supports TypeScript optionally.
+
+Rendering: Virtual DOM (like React) → efficient updates.
+
+Data Binding: Two-way (like Angular), but optional.
+
+Structure: Progressive framework → can start small and scale up.
+
+Ecosystem: Official libraries available (Vue Router, Vuex for state management) → less reliance on third-party tools than React.
+
+Developer Experience: Vue CLI and Vue DevTools → quick setup & debugging.
+
+Flexibility: Lightweight and beginner-friendly → combines best of React & Angular.
+
+Best For: Small-to-medium apps, startups, or when quick development + easy adoption is needed.
+
+Key Distinction:
+
+React → Library, fast & flexible, but needs third-party tools.
+
+Angular → Complete framework, everything built-in, best for enterprises.
+
+Vue → Progressive, lightweight, balanced approach (official tools + flexibility).
+
+
+
+declarative, efficient and flexible
+
+
+
+
+fast and component based , very fast
+devloped by facebook
+
+reusable
+
+create virtuall dom -> faster work
+
+hot reload plug in
+
+
+redux tool
+
+react native
+
+react storybook
+react fiber open source engine
+
+roadmap.assets
+
+
+angular is full framework    react is a js library(smaller piece).it has more collection ,but need to attach with this
+
+angular is complete MVC framework for front end development
+
+react is responsible for view element in model view controller framework
+
+JSX (java script XML) template used by React JS 
+angular uses template base on advance HTML
+
+comoponent
+
+Virtual  DOM used by React
+data biinding
+react support undirectional data biinding.one way
+
+angular data binding is bi directional.two way flow data between model and view
+
+
+scalability
+
+when to use react 
+react use extra third party tools and supporting integrations externel to reactjs
+
+angular includes additonal tools like routing,state management,HTTPS which can build large scale apps 
+
+
+react is not full scale frame work.using react means have to use third party community-managed modules for routing
+
+when to use angular
+
+angular CLI is helpful
+
+data flow is simple and easy.because its bi directioanl
