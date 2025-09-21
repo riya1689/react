@@ -1,0 +1,36 @@
+
+when building user interface with React -
+
+1: break it apart into pieces called components.
+
+step 2: Describing the different visual states for each of states for of the components.
+
+step 3: connect the component together so that the data flows though them.
+
+think about -> programming , CSS, Design
+
+
+states
+1.Does it remain unchanged over time?If so, it isnt state.
+2.Is it passed in from a perent via props? If so, it isnt state
+3.can you complete it based on existing state or props in yoour component?If so, it definitely isnt state.
+
+where should state/ data go?
+
+where state live?
+
+how to send state
+
+1.List of products - passed in as props , so its not state.
+2. The search text - Its state since it changes over time
+3.The value of checkbox - its state since it changes over time
+4.The filtered list of products - not state
+
+
+Clear concept
+
+1.how to work event trigger?
+2.How to deal state while trigger event?
+3.data load api dynamically
+4.loop through to display data
+5.why we use key props

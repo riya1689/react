@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import User from './users';
 import Friends from './friends';
 import Posts from './posts';//3
+import Players from './players';
 
 //4.promise create async/ await
 const fetchPosts = async()=>{
@@ -25,6 +26,7 @@ function App(){
     const postsPromise = fetchPosts();
     return (
     <>
+    <Players></Players>
     {/*2*/}<Suspense fallback ={<h4>Posts are coming....</h4>}>
         {/*6.Send props,set promise, set dynamically in component*/}
      <Posts postsPromise={postsPromise}> </Posts>

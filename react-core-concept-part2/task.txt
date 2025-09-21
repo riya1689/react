@@ -1,0 +1,34 @@
+task 1
+
+build a simple counter app with the following features:
+a button that increase th count by 1 when cllicked
+a button that decrease the count by 1 when cllicked
+a button that resets the count to zero
+Display the count dynamically on the screen
+
+task 2
+create a show / hide text app
+
+use useState to manage the visibility of a text message.
+a button should toggle between show and hide text
+when the text is visible , it should say "hello , react learner
+when hidden , nothing should be displayed
+
+task 3
+API data fetching with useEffect
+1.Fetch and display data from the JSON placeholder API
+2.Display user name, company name, and city in .its
+3.Show a loading state while fetching data
+4.Show an error message if the API requesst fails
+
+
+QA
+What is useStae, and how does it work?
+what is useEffect and when should we use it?
+Why is thinking in React important?
+how react works?
+what is virtual DOM?
+why we nweed comonent?
+why we utilize jsx?
+
+
