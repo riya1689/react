@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Countries from '../Countries/Countries';
 import './Country.css'
 
-const Country = ({country}) => {
+const Country = ({country, handleVisitedCountries}) => {
     const [visited, setVisited] = useState(false); 
-
+    //console.log(handleVisitedCountries);
     const handleVisited=()=>{
         // console.log('visited click');
         //toggle type 1
@@ -16,6 +16,7 @@ const Country = ({country}) => {
         // }
         //toggle type 2
         setVisited(!visited);
+        handleVisitedCountries(country);
     }
     return (
         // class nae dynamic

@@ -76,3 +76,10 @@ conditional rendering
     2.set starting value inside useState()
     3.click korle ki hbe ; sei nam , set sei nam inside const
     4.jokhn click kora hbe tokhn false ta change hoye visited e set hbe
+
+6.Lift up the state to handle child component Event
+coding er style e chinta koro.
+
+state jekhane , event handler sekhane
+
+array er default value empty array
