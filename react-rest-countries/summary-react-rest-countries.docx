@@ -55,3 +55,24 @@ error
     virtual dom efficiently update
     react faster hoy because of these unique key
 ]
+
+4.use style in react and 3 column layout, create card
+
+style t a j korchi seta kothay apply korbo?
+styling sadharonoto tin dhoronere hoye thake.
+
+. -> css class
+# -> css id
+4.
+component gulo k grid korte chaile, parent k bolte hbe  child k align koro
+
+grid
+conditional rendering 
+
+[ki korbo ? kothay apply krbo]
+
+5.conditional css and toggle state based on click
+    1.const [] = useState()
+    2.set starting value inside useState()
+    3.click korle ki hbe ; sei nam , set sei nam inside const
+    4.jokhn click kora hbe tokhn false ta change hoye visited e set hbe

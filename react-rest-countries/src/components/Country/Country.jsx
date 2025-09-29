@@ -1,14 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Countries from '../Countries/Countries';
+import './Country.css'
 
 const Country = ({country}) => {
-    console.log(country.flags);
+    const [visited, setVisited] = useState(false); 
+
+    const handleVisited=()=>{
+        // console.log('visited click');
+        //toggle type 1
+        // if(visited === true){
+        //     setVisited(false)
+        // }
+        // else{
+        //     setVisited(true);
+        // }
+        //toggle type 2
+        setVisited(!visited);
+    }
     return (
-        <div>
+        // class nae dynamic
+        <div className={`country ${visited && 'country-visited'}`}>
             <h3>Name: {country.name.common} </h3>
               <img src ={country.flags.png} alt=" " />
               <p>Independent: {country.independent? 'Free' : 'Not Free'}</p>
               <p>Population: {country.population}</p>
+              <button className ={visited ? 'btn-visited' : 'btn-not-visited'} onClick={handleVisited}>{
+                visited ? 'Visited' : 'Not Visited'
+                }</button>
         </div>
     );
 };
