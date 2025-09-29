@@ -1,0 +1,5 @@
+1.data load
+2.suspense -> fallback (loading waiting message)
+3.promise
+4.we use  -> use (API) to load data
+//we will not use (useEffect) but just familiar with it.

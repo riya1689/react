@@ -1,0 +1,6 @@
+useEffect used for -
+1.data loading (API er data loading)
+2.[mainly side efect work]
+3.DOM er kono kichu ekta changes
+4.animation er kichu ekta
+5.various type side effect dealing

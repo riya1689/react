@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-
+//1.create component
 export default function Players(){
     const [players, setPlayers] = useState([])
     useEffect(() => {

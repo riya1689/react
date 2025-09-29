@@ -1,0 +1,57 @@
+1. react project host in Netlify
+2.'Six Gem' main concept of react 
+        1.JSX
+        2.component
+        3.Props
+        4.Events
+        5.State
+        6.Effect
+
+we will do
+1.data load (reverse way)
+2.react project and component sajano
+3.kivabe file rakhte hoy
+4.magic of creating component with only 3 word
+5.component e ekadhik data pathano
+6.component e object pathano
+7.special key add in data, without this it will give warning.
+8.
+
+
+similar in look but different in data
+
+folder structure --> art, complex,
+
+extension
+react extension pack
+simple react snippets
+
+after install 
+rsc ->component create korao somoy , j name e file thakbe sei name e componnent create kore debe
+
+jekhan theke component call hobe sekhanei promise dite hbe (app.jsx)
+import er niche promise declare.(App.jsx)
+component er vetore promise pathano.
+react.dev -> API -> use (format dekhe neoa jabe)
+
+component tag er vetore promise pathabo props akare
+
+j promise ta component tag er vetore props akare pathabo seta main component er function parameter e set korte hbe
+
+use API diye data load korar por console kore dekha , kono error ache ki na
+
+UI  te display korte hole return er vetore likhte hbe
+
+error dur korte(object looping er khetre property thakteo pare abar nao thakte pare)
+using optional chaining
+
+console.log(country?.fla?.png)
+
+country.independent? 'Free': 'Not free'
+
+error
+[
+    Each child in a list should have a unique "key" prop.
+    virtual dom efficiently update
+    react faster hoy because of these unique key
+]

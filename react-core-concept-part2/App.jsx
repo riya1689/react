@@ -3,13 +3,14 @@ import User from './users';
 import Friends from './friends';
 import Posts from './posts';//3
 import Players from './players';
+import Batsman from './Batsman';
 
 //4.promise create async/ await
-const fetchPosts = async()=>{
+const fetchPosts = async()=>{ //
     const res = await fetch('');
     return res.json();  // res.json() one kind of promise
 }
-const fetchUsers =fetch('')
+const fetchUsers =fetch('')    //direct fetch
     .then(res => res.json());
 
 /**
@@ -24,6 +25,9 @@ const fetchFriends =async() =>{
 function App(){
     /*5. call promise in a variable*/
     const postsPromise = fetchPosts();
+    // function handleClick(){
+    //     alert('I am clicked.')
+    // }
     return (
     <>
     <Players></Players>
