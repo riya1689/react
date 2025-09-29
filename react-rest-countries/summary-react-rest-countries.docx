@@ -83,3 +83,9 @@ coding er style e chinta koro.
 state jekhane , event handler sekhane
 
 array er default value empty array
+
+state jekhane , modify ba event handler sekhane
+
+premitive value sorasori change kora jay.
+
+non premitive sorasori chanege kora jaay na (array , object)
