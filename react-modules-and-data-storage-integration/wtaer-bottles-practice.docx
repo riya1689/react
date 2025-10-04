@@ -1,0 +1,54 @@
+41-2
+
+1.keep data in json format
+2.create fake json format data with gpt
+3,in public folder keep this in name.json file (bottles.json)
+4.fetch data from json
+
+41-3
+1.api from git
+
+walk through
+1.promise create
+2.suspense er vetore bottle component tag
+3.bottle component tag er vitore promise pathano
+4.main component folder e use API keyword use kore data load.
+5.component function e parameter e promise er props deoa.
+
+data persistence rakhar upay
+
+browser specific store.(log in chara shopping cart e add)
+local storage e data add
+local storage -> data persists
+                 can share across all tab
+                 usually capacity 5-10 MB
+session storage -> temporary
+
+
+local storage e json stringify kore rakhte hoy
+local storage theke data json parse akare -> object ba array akare pabo
+
+
+1.local storage theke kono ekti data niye asbo
+2.new add kora 
+or
+3.save kora
+
+local storage e add korar somoy only id
+
+pure / impure
+
+bahirer kono kichur opr depended hole, bahirere kono kichur side effect holea
+amra useEffect use korbo
+
+local storage e rakhte hole 
+localstorage set item
+localstorge e json stringify akare rakhte hoy.
+get korar somoy json.parse kore korte hoy.
+
+
+learn:
+shopping cart e id store
+cart add count
+delete from cart and also from UI
+individual cart e data details store

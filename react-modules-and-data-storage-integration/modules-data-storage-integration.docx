@@ -1,0 +1,27 @@
+1.JS(ES6) import and export
+2.event handler data send with Arrow function
+3.how to store data in local storage
+4.fake data fetch
+
+Reduce
+
+
+
+default export-> single export
+
+common system of export
+javascript short hand technique variable naming and property naming same same
+key and value 
+
+onno name e pathano (export) = alias.
+name change kore pathano -> multiplyNumbers as mult
+
+
+same age for import
+
+if already name in import, can change name of variable in import
+
+
+relative path 
+
+data asbe server theke
