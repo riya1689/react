@@ -1,0 +1,15 @@
+route data display korar somoy shurutei data full na pathiye
+
+choto kono line console kore dekha .thikmto path pacche ki na check kora.line display hocche ki na.
+
+various way to load data
+1.useState, useEffect, fetch -> then
+
+2.promise create kore suspense e deoa.destructuring ,use -> diye data load
+
+3.loader diye data load.
+    useLoaderData
+
+
+
+react icon install

@@ -1,0 +1,11 @@
+awesome component -> map
+
+react google map
+
+main.jsx -> app ->f12-> App component
+
+<Apiprovider apiKey=''>
+<App> 
+
+latitute
+langitute

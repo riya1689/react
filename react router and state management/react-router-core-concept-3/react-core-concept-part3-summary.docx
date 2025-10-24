@@ -1,0 +1,37 @@
+form use in react application
+
+custom hook
+
+prop drilling - bye bye
+
+event handler in form and data access
+
+data from form and kept it in state, set default value
+
+reusable component, prop drilling
+
+context api
+
+
+
+1. e.target.[name of the input field].value
+2.  use form action formData and Controlled Component.
+use form action and formData in the action handler, formData.get('name of the input field)
+
+3.controlled component, use state on change of the field..useful to dynamically handle error  
+
+4.uncontrolled using useRef (building hook)  -> keeps DOM's reference -> current property
+
+5.Hook Form
+
+
+pitfall
+
+custom hook, functional component, (kono loop, condition e use kora jabe na)
+
+
+6. Display form data in a table and form error handle
+mutable -> changeable
+
+
+7.family component tree structure

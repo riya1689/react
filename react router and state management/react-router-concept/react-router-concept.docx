@@ -1,0 +1,68 @@
+website er ek page theke onno page e jawa asa.
+
+react project e router set up, path thik kora (dynamic route thik kora)
+
+dynamic route parameter set kora
+
+route parameter onusare data load
+
+button diye ek router theke onno router e jatayat
+
+ekta page theke onno ekta page e gele setake bole navigation
+
+simple nav tag diye statistic site navigation kora jay, data pass kora hoy na.dynamic route parameter access kora jay na.
+
+
+
+react project install korar por, react router install kora.
+
+
+provider ....? 
+
+
+
+router e element akare bosale tag dite hbe.
+
+component akare dile nam dite hbe
+
+router er sathe sathe jeta change hbe , seta outlet
+
+
+
+data load
+
+1.use : userPromise > suspense > promise > use(usersPromise)
+2.[less used so far] > useState + useEffect ( () =>{}, [])
+3.set loader in the route definition: load data before router component is rendered
+
+
+router er moddhe colon -> dynamic route
+
+
+
+
+
+7.explore hooks useNavigate and useNavigator for router spinner
+
+programitically ek jayga theke onno jaygay jete help kore
+
+
+pending UI -> spnnier loader er moto
+
+
+8.load data in the component without route and not found route
+
+
+path : '*'  -> ja pabona segulor sob ekhane..
+
+
+9.navigate UseLocation 
+
+link -> click korle jabe
+
+navigate -> shorto sappekhho
+
+
+UseLocation
+
+url er kothaya achi, information dekhanor jonno

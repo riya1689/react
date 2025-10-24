@@ -1,0 +1,21 @@
+changing title icon ->
+public folder has an icon
+
+connection comes from index.html
+<link>
+
+dynamically changing title ->
+
+react awesome component
+
+title -> using helmet in main.jsx
+
+<strictmode>
+<helmetProvider>
+<routerProvider>
+<ToastContainer>
+</helmetProvider>
+</strictmode>
+
+
+react developer tools

@@ -1,0 +1,11 @@
+src 
+   components
+        header
+        footer
+   pages
+    Root
+       outlet related code
+   Routes
+      children creation
+outlet -> je ongsho change hote thakbe 
+header , footer fix rekhe body changeable

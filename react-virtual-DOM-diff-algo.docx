@@ -1,0 +1,28 @@
+virtual DOM
+1.Lightweight copy of DOM object.
+2.has properties the same as real DOM object
+3.make changes in the DOM with the help of Diff alog
+4.Its like: instead of moving actual rooms in a house, we edit the blueprint.
+
+
+Render and reactivity
+
+Render:
+1.technically means to provide service
+2.in react, render is a method that tell react what to display in browser
+3. react schedules a render every time the state of component changes 
+
+reactivity:
+while change somewhere it update.
+
+non blocking -> asynchronous nature
+
+RxJx
+handle react library
+
+SSR ->Server Side Rendering
+
+CSR->Client Side Rendering
+
+
+SEO  -> Search Engine Optimization

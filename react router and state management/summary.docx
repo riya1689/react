@@ -1,0 +1,56 @@
+1. react router
+2.context api
+3.tailwind
+(extension tailwind CSS intellisense)
+
+
+
+1.how to use tailwind in react application
+2.lucide icon, daisy UI
+3.chart making 
+4.axios
+5.animation adding react application
+
+
+for complete react developer
+1.data handling
+2.routing
+3.user interaction handling
+
+
+phase1
+1.responsive design and data visualization with tailwind css, daisy UI
+2.rechart, api, axios, data load, UI showing
+
+phase2 -> routing mastery
+1.different page, different route
+2.single page application with route
+3.how to create route
+4.sub page with nested route
+5.user details page with dynamic
+6.route - level data loader
+
+
+important hook of react router , part of react tool -kit
+1.useLoaderData()
+2.userParams()
+3.useNavigate()
+4.useNavigation()
+5.useLocation()
+6.useOutletContext()
+
+phase 3 -> react core mastery
+1.form submission
+2.input
+3.state
+4.data management
+5.controlled vs uncontrolled form
+6.useRef()
+7.Custom hook
+8.Context api
+9.useFormStatus(), useActionState()
+
+phase 4 final project
+book vibe
+1.router2.filter 3.local storage 4. toast notification
+
