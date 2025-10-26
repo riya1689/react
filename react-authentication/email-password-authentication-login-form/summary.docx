@@ -1,0 +1,47 @@
+log in with email and password
+
+getting data from form
+
+checking user input with regular expression
+
+keeping form's data in react state and taking this data into firebase and create new user
+
+getting error
+
+sign in , sign up
+
+
+__1.project route set up
+           1.vite guide installation
+           2.tailwind css
+           3.daisy UI 
+           4.react router 
+           5.
+__2.login , register, submit button 
+
+__3.firebase setup and create user using registration from 
+
+
+create firebase project
+get firebase config 
+enable auth method (Build > Authentication > sign in method)
+initialize auth method and export it 
+use createUserWithEmailAndPassword(auth, email, password )
+
+__4.error message handle 
+__5.regular expression and password validation
+
+__6.toggle show password accept terms
+
+__7.login user with email and password 
+
+__8.validate email address and forget password 
+      manage users 
+      email verification for sign up , new user 
+      forget password 
+
+__9.update user profile
+
+
+
+

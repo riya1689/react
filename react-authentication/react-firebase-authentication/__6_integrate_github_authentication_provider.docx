@@ -1,0 +1,21 @@
+build -> sign in method -> add new provider ->
+
+
+1. client ID
+2.Client secret
+3.
+
+
+git hub
+settings -> developer settings -> new git hub app -> use password authentication -> 
+
+
+register new gitHub app
+
+github app name: 
+
+
+homepage URL: 
+
+3.copy link and set up it in callback URL
+4.web hook untick(if later you want to use check it)

@@ -1,0 +1,18 @@
+1.vite  -> create vite@latest myProject -- --template react
+
+2.react router -> npm i react router
+
+3.react router set up
+
+4. outlet route onusare change hbe.
+
+5.firebase google . com
+         1. console
+         2.create a firebase project
+         3.project name
+         4.[google analytics -> kon jayga theke , kotokhon dhorre, k use korche sei sob information ber korar jonno]
+         5. continue
+         6.select for website
+         7.npm install firebase
+         8.
+                        if hariye jai[go to console, settings, project settings, ]

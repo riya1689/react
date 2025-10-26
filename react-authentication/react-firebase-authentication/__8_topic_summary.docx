@@ -1,0 +1,149 @@
+authentication methods
+
+1. security question
+
+2.passwords
+
+3.sms , voice, email OTP
+
+4.software OTP
+
+5.okta verify push
+
+6.physical and U2F Tokens
+
+7.Biometrics based
+
+interview question
+
+1. what is firebase?
+2. is firebase frontend or backend?
+3.what is firebase architecture?
+4.what are the feature of firebase? what are the tasks you can accomplish with firebase?
+5.Difference between firebase and mongoDB?
+6.have you ever used firebase database(real time database)?
+7.can you briefly explain the github authentication process with firebase?
+8.which method is used to sign in user in firebase email/password authentication?
+9.authentication vs authorization
+10.can you tell me names of 3 authentication method?
+11.which authentication methods have you ever used for your project purpose?
+
+1. What is Firebase?
+
+Firebase is a Backend-as-a-Service (BaaS) platform developed by Google.
+It provides a set of tools and cloud services that help developers build, manage, and scale web and mobile applications — without managing servers.
+It includes databases, authentication, hosting, cloud storage, push notifications, and analytics.
+
+2. Is Firebase frontend or backend?
+
+Firebase is mainly a backend service.
+However, it provides SDKs and APIs that can be directly integrated into frontend apps (web, Android, iOS), so developers don’t need to write separate backend code.
+👉 In short: Frontend developers use Firebase for backend features.
+
+3. What is Firebase architecture?
+
+Firebase architecture is client-server-based, where:
+
+Client (Frontend): App (web or mobile) directly communicates with Firebase SDK.
+
+Firebase Backend (Cloud Services): Handles data storage, authentication, hosting, etc.
+
+Google Cloud Infrastructure: Underlying layer that powers Firebase.
+
+Layers:
+
+Frontend (User App) → uses Firebase SDK
+
+Firebase Services (Auth, Firestore, Storage, etc.)
+
+Google Cloud Platform (real backend & infrastructure)
+
+4. What are the features of Firebase? What tasks can you accomplish with it?
+
+Main Features:
+
+Firebase Authentication → Login with email/password, Google, GitHub, etc.
+
+Cloud Firestore / Realtime Database → Store and sync data.
+
+Firebase Hosting → Host static websites and web apps.
+
+Firebase Cloud Storage → Store files like images or videos.
+
+Firebase Cloud Messaging (FCM) → Send push notifications.
+
+Firebase Analytics → Track user behavior and app performance.
+
+Firebase Functions → Run backend code in the cloud.
+
+Tasks you can accomplish:
+
+User authentication
+
+Data storage and syncing in real time
+
+File uploading and hosting
+
+Sending push notifications
+
+Deploying web apps easily
+
+5. Difference between Firebase and MongoDB
+Feature	Firebase	MongoDB
+Type	Backend-as-a-Service	Database only
+Data Model	JSON tree (Realtime DB) or NoSQL collections (Firestore)	NoSQL documents & collections
+Hosting	Provided by Google	Self-hosted or MongoDB Atlas
+Real-time Sync	Built-in	Not real-time (requires additional setup)
+Authentication	Built-in	Requires external setup
+Use Case	For quick app setup, small to medium projects	For large, complex, custom backends
+6. Have you ever used Firebase Database (Realtime Database)?
+
+✅ Yes (if you have used it)
+For example:
+
+“Yes, I’ve used Firebase Realtime Database in my projects to store and update data instantly across all clients. It’s useful for chat apps, live updates, and collaborative features because of real-time synchronization.”
+
+7. Can you briefly explain the GitHub authentication process with Firebase?
+
+Sure:
+
+Go to Firebase Console → Authentication → Sign-in method → GitHub.
+
+Enable GitHub provider and add Client ID and Client Secret from your GitHub Developer settings.
+
+In your frontend app, call:
+
+const provider = new GithubAuthProvider();
+signInWithPopup(auth, provider);
+
+
+Firebase handles OAuth flow and returns user info (name, email, GitHub ID).
+
+You can then store user data in Firestore or use it for authorization.
+
+8. Which method is used to sign in user in Firebase Email/Password Authentication?
+
+The method is:
+
+signInWithEmailAndPassword(auth, email, password)
+
+
+It verifies the credentials and returns a user object on success.
+
+9. Authentication vs Authorization
+Term	Meaning	Example
+Authentication	Verifies who the user is	Logging in with email & password
+Authorization	Decides what the user can access	Admin can edit data; user can only view
+10. Can you tell me names of 3 authentication methods?
+
+Email & Password Authentication
+
+Google Sign-In
+
+GitHub / Facebook / Phone Number Authentication
+
+11. Which authentication methods have you ever used for your project purpose?
+
+Example answer:
+
+“In my projects, I’ve used Email & Password authentication and Google Sign-In. I’ve also experimented with GitHub authentication for developer-oriented apps.”
