@@ -1,0 +1,19 @@
+1. how authentication work in big project.
+2. sharing logged ing users info in different component route.
+3.not logged in user is not allowed.
+4.first have to logged in ; if logged in success full then redirect page
+
+
+
+loading state navigate log imh
+
+location . component and path set
+
+
+1.context e set .
+
+2.firebase -> auth observe,
+
+3.auth redirect
+
+4.login chara url technique korleo dashboard jawa jabe na

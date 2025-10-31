@@ -1,0 +1,11 @@
+context create , context as provider with value to get these access from any route.
+
+pass in any component
+
+
+hook diye reusable File
+
+
+use effect onAuthStateChanged inside useEffect
+
+why we keep this in useEffect
